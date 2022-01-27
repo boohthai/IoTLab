@@ -45,8 +45,8 @@ client.on_message = recv_message
 temp = 30
 humi = 50
 light_intesity = 100
-longitude = 106.7
-latitude = 10.6
+longitude = 106.6297
+latitude = 10.8231
 counter = 0
 while True:
     collect_data = {'temperature': temp, 'humidity': humi, 'light': light_intesity, 'longitude': longitude,
